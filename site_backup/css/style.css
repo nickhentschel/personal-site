@@ -1,0 +1,184 @@
+/* GENERAL STYLES */
+
+::selection {
+	background: #FF5B5B; /* Safari */
+}
+
+::-moz-selection {
+	background: #FF5B5B; /* Safari */
+}
+
+/* ease animation */
+
+a, h1, .arrow {
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+p {
+	padding: 1em 0;
+}
+
+em {
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 10em;
+	text-shadow: 4px 5px 3px rgba(0,0,0,0.3);
+	font-family: 'Text Me One', sans-serif;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+	padding: 1em;
+	font-weight: normal;
+	/*text-shadow: 1px 2px 2px rgba(0,0,0,0.3);*/
+}
+
+h3 {
+	font-size: 1.4em;
+	padding: 1em 0 0 .5em;
+	margin: 0 0 .3em 0;
+	border-bottom: 1px solid #CCC; 
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
+	font-weight: normal;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: #23bdbb;
+	border-bottom: 1px dotted #23bdbb;
+}
+
+	a:hover {
+		color: #FF5B5B;
+		border-bottom: 1px dotted #FF5B5B;
+	}
+
+.left {
+	float: left;
+}
+
+body {
+	font: 100%/1.5 'Sintony', sans-serif;
+	color: #505050;	
+}
+
+/* HEADER STYLES */
+
+	header[role="banner"] {
+		padding: .8em 1.5em;
+	}
+
+		.header-links {
+			text-align: right;
+			color: #CCC;
+			color: rgba(0, 0, 0, 0.4);
+		}
+
+			.header-links li {
+				display: inline-block;
+				padding: 0 .5em;
+			}
+
+				.header-links a {
+					color: #CCC;			
+					color: rgba(0, 0, 0, 0.4);
+				}
+
+		.logo {
+			text-align: center;
+		}
+
+			.logo > h1:hover {
+				cursor: pointer;
+				text-shadow: 4px 5px 20px rgba(0,0,0,0.3);
+			}
+
+			/* NAVIGATION STYLES */
+
+				.nav-links > li {
+					display: inline-block;
+				}
+
+					.nav-link {
+						display: block;
+						margin: .5em 1em;
+						color: #CCC;			
+						color: rgba(0, 0, 0, 0.4);
+					}
+
+/* MAIN CONTENT STYLES */
+
+	.content {
+		max-width: 45em;
+		margin: 0 auto;
+		padding: .8em 1.5em;
+		overflow: hidden;
+		position: relative;
+		line-height: 2em;
+	}
+
+	.content p {
+		text-align: justify;
+	}
+
+/* PROJECTS STYLES */
+
+		.project {
+			display: inline-block;
+		}
+
+/* RESUME STYLES */
+	
+		section > h4 {
+			padding: .5em .5em;
+			line-height: 1.5em;
+		}
+
+		.resume-para {
+			line-height: 1.5em;
+			text-align: left;
+			padding: .5em .5em;
+		}
+
+		.resume-list {
+			list-style-type: disc;
+			padding-left: 2em;
+		}
+
+			.resume-list > li {
+				line-height: 1.5em;
+				padding: .5em 0;
+			}
+	
+/* FOOTER STYLES */
+
+	.content-footer {
+		text-align: center;
+	}
+
+		.content-footer > span:hover {
+			color: #23bdbb;
+			cursor:	pointer;
+		}
+
+		.footer-para {
+			padding: .3em 0;
+			font-size: .7em;
+		}
+
+		.arrow {
+			font-weight: bold;
+			font-size: 3em;
+		}

@@ -1,0 +1,72 @@
+.typography {
+	font: 100%/1.5 'Sintony', sans-serif;
+	color: #858585;	
+	background: #2B2E36;
+}
+
+.typography a, .typography h1, .typography .arrow, .typography h2 {
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+.typography p {
+	padding: 1em 0;
+}
+
+.typography em {
+	font-weight: normal;
+}
+
+.typography h1 {
+	width: 5em;
+	margin: 0 auto;
+	font-size: 10em;
+	text-shadow: 4px 5px 3px rgba(0,0,0,0.3);
+	font-family: 'Text Me One', sans-serif;
+	font-weight: normal;
+}
+
+.typography h2 {
+	font-size: 2em;
+	text-align: center;
+	padding: 1em;
+	font-weight: normal;
+	text-shadow: 4px 5px 3px rgba(0,0,0,0.3);
+}
+
+	.typography h2:hover {
+		color: #B1B88C;
+	}
+
+.typography h3 {
+	color: #B1B88C;
+	font-size: 1.4em;
+	padding: 1em 0 0 .5em;
+	margin: 0 0 .3em 0;
+	border-bottom: 1px solid #858585; 
+	border-bottom: 1px solid rgba(133, 133, 133, 0.5); 
+	text-shadow: 4px 5px 3px rgba(0,0,0,0.3);
+	font-weight: normal;
+}
+
+.typography h4 {
+	font-size: 1em;
+}
+
+.typography a {
+	text-decoration: none;
+	border-bottom: 1px dotted #54877E;
+	color: #54877E;
+}
+
+	.typography a:hover {
+		color: #9E373E;
+		border: none;
+	}
+
+	.typography .current {
+		border-color: #9E373E;
+	}

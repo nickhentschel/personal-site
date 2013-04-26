@@ -1,0 +1,124 @@
+/* GENERAL STYLES */
+
+html {
+	background: #2B2E36;
+}
+
+::selection {
+	background: #676A72;
+}
+
+::-moz-selection {
+	background: #676A72;
+}
+
+/* ease animation */
+
+.left {
+	float: left;
+}
+
+/* HEADER STYLES */
+
+	header[role="banner"] {
+		padding: .8em 1.5em;
+	}
+
+		.header-links {
+			text-align: right;
+		}
+
+			.header-links li {
+				display: inline-block;
+				padding: 0 .5em;
+			}
+
+				.header-links a {
+					color: #858585;			
+				}
+
+		.logo {
+			text-align: center;
+		}
+
+			.logo > h1:hover {
+				cursor: help;
+				text-shadow: 4px 5px 20px rgba(0, 0, 0, 0.3);
+			}
+
+			/* NAVIGATION STYLES */
+
+				.nav-links > li {
+					display: inline-block;
+				}
+
+					.typography .nav-link {
+						display: block;
+						margin: .5em 1em;
+						color: #858585;
+					}
+
+/* MAIN CONTENT STYLES */
+
+	.content {
+		max-width: 45em;
+		margin: 0 auto;
+		padding: .8em 1.5em;
+		overflow: hidden;
+		position: relative;
+		line-height: 2em;
+	}
+
+	.content p {
+		text-align: justify;
+	}
+
+/* PROJECTS STYLES */
+
+		.project {
+			display: inline-block;
+		}
+
+/* RESUME STYLES */
+	
+		section > h4 {
+			padding: .5em .5em;
+			line-height: 1.5em;
+		}
+
+		.resume-para {
+			line-height: 1.5em;
+			text-align: left;
+			padding: .5em .5em;
+		}
+
+		.resume-list {
+			list-style-type: disc;
+			padding-left: 2em;
+		}
+
+			.resume-list > li {
+				line-height: 1.5em;
+				padding: .5em 0;
+			}
+	
+/* FOOTER STYLES */
+
+	.content-footer {
+		text-align: center;
+	}
+
+		.content-footer > span:hover {
+			color: #54877E;
+			cursor:	pointer;
+		}
+
+		.typography .footer-para {
+			padding: .3em 0;
+			font-size: .8em;
+		}
+
+		.arrow {
+			font-weight: bold;
+			font-size: 3em;
+		}
