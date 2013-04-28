@@ -21,8 +21,8 @@
 		<div class="content">
 			$Layout
 		</div>
-		<% include Footer %>		
-		<% require javascript(//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js) %>
+		<% include Footer %>
+		<% require javascript('http://code.jquery.com/jquery-1.9.1.min.js') %>
 		<% require javascript(themes/default/javascript/main.js) %>
 	</body>
 </html>
