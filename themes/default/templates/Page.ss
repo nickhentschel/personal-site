@@ -15,13 +15,6 @@
 		<% require css(themes/default/css/typography.css) %>
 		<% require css(themes/default/css/form.css) %>
 		<% require css(themes/default/css/style.css) %>
-	</head>
-	<body class="typography">
-		<% include Header %>
-		<div class="content">
-			$Layout
-		</div>
-		<% include Footer %>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -31,6 +24,13 @@
 			ga('create', 'UA-40513518-1', 'nickhentschel.com');
 			ga('send', 'pageview');
 		</script>
+	</head>
+	<body class="typography">
+		<% include Header %>
+		<div class="content">
+			$Layout
+		</div>
+		<% include Footer %>
 		<% require javascript('http://code.jquery.com/jquery-1.9.1.min.js') %>
 		<% require javascript(themes/default/javascript/main.js) %>
 	</body>
